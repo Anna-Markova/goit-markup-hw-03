@@ -18,24 +18,22 @@
 
 }
 .color-orangered{
-    font-family: "Roboto", sans-serif;
-    line-height: 1.5px;
-    border: 2px solid orangered;
+        border: 2px solid orangered;       
 }
 
 ul{
     list-style: none;
 }
 .container-header{
-    background-color: #FFFFFF;  
-    border: 2px solid rgba(33, 150, 243, 1);
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 25px;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
+        background-color: #FFFFFF;  
+        border: 2px solid rgba(33, 150, 243, 1);
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 25px;
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
 }
 /*логотип*/
 .title-logo{
@@ -87,32 +85,32 @@ ul{
 }
 /*герой*/
 .hero{
-    color: #E5E5E5;
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    letter-spacing: 0.06em;
-    margin-left:auto;
-    margin-right: auto; 
-    background-color:  #2F303A;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 25px;
-    width: 1200px;
-    border: 2px solid rgba(33, 150, 243, 1);
+        color: #E5E5E5;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        letter-spacing: 0.06em;
+        margin-left:auto;
+        margin-right: auto; 
+        background-color:  #2F303A;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 25px;
+        width: 1200px;
+        border: 2px solid rgba(33, 150, 243, 1);
     
 }
 .hero-btn{
-    color: #E5E5E5;
-    background-color: #2196F3;
-    text-align: center;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    border: none;
-    font-family: "Roboto", sans-serif;
-    letter-spacing: 0.06em;
-    margin-left: auto;
-    margin-right: auto;
+        color: #E5E5E5;
+        background-color: #2196F3;
+        text-align: center;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        border: none;
+        font-family: "Roboto", sans-serif;
+        letter-spacing: 0.06em;
+        margin-left: auto;
+        margin-right: auto;
 }
 .hero-text{
         padding-top: 200px;
@@ -135,40 +133,40 @@ ul{
 /*внимание к деталям*/
 
 .active-list{
-display: flex;
-width: 270px;
-margin-top: 94px;
-font-family: "Roboto", sans-serif; 
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-color: #757575;
-width: 1200px;
-margin-left: auto;
-margin-right: auto;
-align-items: center;
-background-color:#E5E5E5; ;
+        display: flex;
+        width: 270px;
+        margin-top: 94px;
+        font-family: "Roboto", sans-serif; 
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        background-color:#E5E5E5; 
 }
 .active-list .item{
-width: 270px;
+        width: 270px;
 }
 .active-list .item: last-child{
         margin-right: 0;
 }
 .active-title{
-    width: 270px;
-    margin-bottom: 10px;
-    margin-right: 30px;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.66;    
-    color: #212121;
-    display: flex;
-}
+        width: 270px;
+        margin-bottom: 10px;
+        margin-right: 30px;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.66;    
+        color: #212121;
+        display: flex;
+        }
 .active-title: last-child {
-margin-right: 0;
+        margin-right: 0;
 }
 .text{
         width: 270px;
@@ -193,17 +191,18 @@ margin-right: 0;
         font-style: normal;
         color: #212121;
         text-align: center; 
-        font-size: 40px;      
+        font-size: 40px; 
+        margin-bottom: 50px;    
 }
 /*картинки*/
 .aline{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: -30px;
-    padding-left: 0;
-    padding-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: -30px;
+        padding-left: 0;
+        padding-top: 50px;
 }
 .aline-png{
         flex-basis: calc(100% / 3 -30px);
@@ -226,7 +225,6 @@ margin-right: 0;
 .team-list{
         padding: 0;
         margin: 0;
-        outline: 1px solid green;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -245,7 +243,7 @@ margin-right: 0;
 }
 .team-card {
         width: 270px;
-        outline: 1px dotted green
+        
 }
 .team{
         background-color:  #F5F4FA;
@@ -258,7 +256,7 @@ margin-right: 0;
         font-size: 16px;
         line-height: 1.18;
         letter-spacing: 0.03em;
-        color: var rgba(47, 48, 58, 1);
+        color:  rgba(33, 33, 33, 1);
         text-align: center;
         padding-left: 0;
         padding-right: 0;
@@ -267,11 +265,11 @@ margin-right: 0;
         
 }   
 .team-title{
-   text-align: center;
-   font-size: 40px;
-   margin-top: 94px;
-   margin-bottom: 50px;   
-   color:  #212121;;  
+        text-align: center;
+        font-size: 40px;
+        margin-top: 94px;
+        margin-bottom: 50px;   
+        color:  #212121; 
 }
 .team-text{
         width: 130px;
@@ -287,12 +285,11 @@ margin-right: 0;
         line-height: 19px;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #757575;
+        color: rgba(33, 33, 33, 1);
         }
 /*Контакты*/
-.contacts{
+.contacts-container{
         background-color: #2F303A;
-        border: 2px solid red;
         padding-left: 15px;
         padding-right: 15px;
         padding-bottom: 25px;
@@ -301,38 +298,107 @@ margin-right: 0;
         margin-right: auto;
         align-items: center;
         line-height: 30px;
+        border: 2px solid rgba(33, 150, 243, 1);
         
+}
+.contacts-web{
+        font-style: normal;
+        font-weight: 145;
+        font-size: 10px;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+        margin-left: 250px;
+        margin-top: 60px;
+        margin-right: auto;
+        margin-bottom: 20px;  
+        display: flex;    
 }
 .title-smart{
         background: #2F303A;
         font-family: "Raleway", sans-serif;
         font-style: normal;
         font-weight: 145;
-        font-size: 20px;
+        font-size: 14px;
         letter-spacing: 0.03em;
-        color: #2196F3;
-        margin-left: auto;
-        margin-top: auto;
+        color: #FFFFFF;
+        margin-left: 215px;
+        margin-top: 20px;
         margin-right: auto;
-        
+        margin-bottom: 60px;
+             
 }
 /*портфолио*/
-.like{
-        border: none;
+
+.container-sleam{
+        background-color: #2F303A;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 25px;
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        line-height: 30px;
+        border: 2px solid rgba(33, 150, 243, 1);      
+}
+.logo-story{
+        color: rgba(255, 255, 255, 1);
+        font-family: "Raleway", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 31px;
+        text-align: center;      
+}
+.like-container{
+        justify-content: space-between;
+         font-weight: 1170px;
+         margin-left: 100px;
+         margin-top: 60px;
+         margin-bottom: 24px;
+}
+    
+  .container-main{
+        background-color: #FFFFFF;  
+        border: 2px solid rgba(33, 150, 243, 1);
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 25px;
+        width: 1200px;
+        margin-left: 0;
+        margin-top: 0;
+        align-items: center;
+    }
+
+.like-slim{
+        font-weight: 84px;
+        margin-left: 70px;
+        margin-top: 32px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+        justify-content: space-between;
 }
 .like-btn{
-    background-color:rgba(33, 150, 243, 1);
+       background-color:rgba(33, 150, 243, 1);
 }
-.mainly{
+.like{
+        
+}
+.like-mainly{
         background-color:#E5E5E5;
         margin-left: 215px;
         margin-right: 215px;
         margin-top: 346px;
         margin-bottom: 174px;
-        text-align: center;
+        text-align: center;      
 }
 .mainly-btn{          
-            border: none;
+         border: none;   
 }
     
 
