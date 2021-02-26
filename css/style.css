@@ -19,11 +19,17 @@
 }
 .color-orangered{
         border: 2px solid orangered; 
-        background-color: #fff;      
+        background-color:#fff;
+        margin: 0;
+
 }
 
 ul{
     list-style: none;
+}
+.smart{
+        background-color: #E5E5E5;
+        border: 1px solid #EEEEEE
 }
 .container-header{
         background-color: #FFFFFF;  
@@ -35,6 +41,7 @@ ul{
         margin-left: auto;
         margin-right: auto;
         align-items: center;
+        border: 1px solid #ECECEC;
 }
 /*логотип*/
 .title-logo{
@@ -71,6 +78,21 @@ ul{
         margin-bottom: 0;
         
 }
+.contakts-mail-plus{
+        font-weight: 500;
+        color: rgba(33, 150, 243, 1);
+        font-size: 14px;  
+}
+.links-plus{
+        font-weight: 500;
+        color: rgba(33, 150, 243, 1);
+        font-size: 14px;
+}
+.links-one{
+        font-weight: 400;
+        color:rgba(33, 33, 33, 1);
+        font-size: 14px;
+}
 .social-links{
         display: flex;
 }
@@ -94,6 +116,9 @@ ul{
 }
 /*герой*/
 .hero{
+background-color:#E5E5E5;
+}
+.container-hero-box{
         color: #E5E5E5;
         text-align: center;
         font-family: "Roboto", sans-serif;
@@ -140,6 +165,9 @@ ul{
         margin-left: auto;
 }
 /*внимание к деталям*/
+.active{
+        background-color: #E5E5E5;
+}
 
 .active-list{
         display: flex;
@@ -156,7 +184,7 @@ ul{
         margin-left: auto;
         margin-right: auto;
         align-items: center;
-        background-color:#E5E5E5; 
+        background-color:#FFFFFF
 }
 .active-list .item{
         width: 270px;
@@ -187,8 +215,12 @@ ul{
         color: #212121;
 }      
 /*чем мы занимаемся*/
+.enterprise{
+        background-color:  #E5E5E5;      
+}
+
 .sidebar{
-        background-color:  #E5E5E5;   
+        background-color: #FFFFFF;  
         width: 1200px;
         padding-left: 15px;
         padding-right: 15px;  
@@ -210,8 +242,9 @@ ul{
         margin-top: 0;
         margin-bottom: 0;
         justify-content: space-between;
-        width: 1170px;
-       padding: 0.15px;
+        width: 1200px;
+        padding: 0.15px;
+     
 }
 .aline-png{
         flex-basis: calc(100% / 3 -30px);
@@ -229,7 +262,7 @@ ul{
         padding-bottom: 94px;
         padding-left: 15px;
         padding-right: 15px;
-        background-color: rgba(245, 244, 250, 1);
+        background-color:  #F5F4FA;
 }
 .team-list{
         display: flex;
@@ -238,7 +271,7 @@ ul{
         flex-basis: calc(100%/3 -30px);
         margin-bottom: 92px;
         width: 1200px;
-        padding: 00.15px;
+        padding: 0.15px;
 }
 .team-list> .team-item{
         width: 270px;
@@ -254,7 +287,7 @@ ul{
         
 }
 .team{
-        background-color:  #F5F4FA;
+        background-color: #E5E5E5;
 }
 .team-first{
         font-family: "Roboto", sans-serif;
@@ -296,6 +329,9 @@ ul{
         color: rgba(33, 33, 33, 1);
         }
 /*Контакты*/
+.contacts{
+        background-color: #E5E5E5;
+}
 .contacts-container{
         background-color: #2F303A;
         padding-left: 15px;
@@ -333,9 +369,18 @@ ul{
         margin-top: 20px;
         margin-right: auto;
         margin-bottom: 60px;
-             
+     
 }
 /*портфолио*/
+.color{
+        border: 2px solid orangered; 
+        background-color:#fff;
+        margin: 0;   
+}
+.smart-main{
+        background-color: #E5E5E5;
+        margin-top: 0px;
+}
 
 .container-sleam{
         background-color: #2F303A;
@@ -359,14 +404,12 @@ ul{
         text-align: center;      
 }
 .like-container{
-        justify-content: space-between;
-         font-weight: 1170px;
-         margin-left: 100px;
-         margin-top: 60px;
-         margin-bottom: 24px;
-}
-    
-  .container-main{
+        background-color: #FFFFFF; 
+        
+   
+      
+}   
+.smart-container{
         background-color: #FFFFFF;  
         border: 2px solid rgba(33, 150, 243, 1);
         padding-left: 15px;
@@ -376,8 +419,12 @@ ul{
         margin-left: auto;
         margin-right: auto;
         align-items: center;
+        
 }
-
+.smart-main{
+        background-color:#E5E5E5;
+        border: solid 1px #EEEEEE
+}
 .like-slim{
         font-weight: 84px;
         margin-left: 70px;
@@ -397,7 +444,6 @@ ul{
        background-color:rgba(33, 150, 243, 1);
        border: none;
        font-weight: 700;
-       background: #2196F3;
        width: 73px;
       left: 495px;
       top: 174px;
@@ -419,7 +465,12 @@ border-radius: 4px;
         margin-right: 215px;
         margin-top: 346px;
         margin-bottom: 174px;
-        text-align: center;      
+        text-align: center;   
+        justify-content: space-between;
+        font-weight: 1170px;
+        margin-left: 100px;
+        margin-top: 94px;
+        margin-bottom: 88px;   
 }
 .mainly-btn{          
          border: none; 
@@ -435,7 +486,12 @@ border-radius: 4px;
         left: 239px;
         top: 1050px;
 }
-    
+.container-icon{
+        background-color:  #FFFFFF; 
+}
+.icon{
+        background-color: #E5E5E5;
+}
 .smart-icon{
         display: flex;
         margin-left: 70px;
@@ -444,6 +500,7 @@ border-radius: 4px;
         justify-content: space-between;
         font-weight: normal;
 }
+
 .sleam-icon{
         display: flex;
         margin-left: 70px;
@@ -469,3 +526,31 @@ border-radius: 4px;
         width: 322px; 
 }
 
+.contakts-mail{
+        font-weight: 400;
+        color: black;
+        font-size: 14px;  
+}
+.contakts-tel{
+        font-weight: 400;
+        color: black;  
+        font-size: 14px;  
+}
+.links-port{
+        color: rgba(33, 150, 243, 1);
+        font-weight: 500;
+        font-size: 14px;
+}
+.links{
+        color: rgba(33, 33, 33, 1);
+        font-weight: 500;
+        font-size: 14px;
+}
+.h1,
+.h2,
+.h1,
+.h2,
+.h1,
+.h2{
+        margin: 0;
+}
