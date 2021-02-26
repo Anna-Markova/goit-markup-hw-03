@@ -18,7 +18,8 @@
 
 }
 .color-orangered{
-        border: 2px solid orangered;       
+        border: 2px solid orangered; 
+        background-color: #fff;      
 }
 
 ul{
@@ -26,7 +27,7 @@ ul{
 }
 .container-header{
         background-color: #FFFFFF;  
-        border: 2px solid rgba(33, 150, 243, 1);
+        border: 1px solid rgba(33, 150, 243, 1);
         padding-left: 15px;
         padding-right: 15px;
         padding-bottom: 25px;
@@ -208,9 +209,9 @@ ul{
         flex-wrap: wrap;
         margin-top: 0;
         margin-bottom: 0;
-        margin-right: -30px;
-        padding-left: 0;
-        padding-top: 50px;
+        justify-content: space-between;
+        width: 1170px;
+       padding: 0.15px;
 }
 .aline-png{
         flex-basis: calc(100% / 3 -30px);
@@ -231,14 +232,13 @@ ul{
         background-color: rgba(245, 244, 250, 1);
 }
 .team-list{
-        padding: 0;
-        margin: 0;
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
         justify-content: space-between;
-        flex-basis: calc(100% / 3- 30px);
+        flex-basis: calc(100%/3 -30px);
         margin-bottom: 92px;
+        width: 1200px;
+        padding: 00.15px;
 }
 .team-list> .team-item{
         width: 270px;
