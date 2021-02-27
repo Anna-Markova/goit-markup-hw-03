@@ -19,7 +19,7 @@
 }
 .color-orangered{
         border: 2px solid orangered; 
-        background-color:#fff;
+        background-color:#FFFFFF;
         margin: 0;
 
 }
@@ -28,8 +28,8 @@ ul{
     list-style: none;
 }
 .smart{
-        background-color: #E5E5E5;
-        border: 1px solid #EEEEEE
+        background-color: #FFFFFF
+        border: 1px solid rgba(33, 150, 243, 1);
 }
 .container-header{
         background-color: #FFFFFF;  
@@ -41,7 +41,10 @@ ul{
         margin-left: auto;
         margin-right: auto;
         align-items: center;
-        border: 1px solid #ECECEC;
+}
+.container-header:hover,
+.container-header:focus{
+        border: 2px solid rgba(33, 150, 243, 1);   
 }
 /*логотип*/
 .title-logo{
@@ -76,6 +79,8 @@ ul{
         display: flex;
         border-bottom: 1px solid var(--back-ligt-wite);
         margin-bottom: 0;
+        
+        
         
 }
 .contakts-mail-plus{
@@ -116,7 +121,7 @@ ul{
 }
 /*герой*/
 .hero{
-background-color:#E5E5E5;
+background-color:#ffffff;
 }
 .container-hero-box{
         color: #E5E5E5;
@@ -130,7 +135,7 @@ background-color:#E5E5E5;
         padding-right: 15px;
         padding-bottom: 25px;
         width: 1200px;
-        border: 2px solid rgba(33, 150, 243, 1);
+        border: 1px solid rgba(33, 150, 243, 1);
     
 }
 .hero-btn{
@@ -163,10 +168,11 @@ background-color:#E5E5E5;
         margin-bottom: 30px;
         margin-right: auto;
         margin-left: auto;
+        border: 1px solid orangered;  
 }
 /*внимание к деталям*/
 .active{
-        background-color: #E5E5E5;
+        background-color: #ffffff;
 }
 
 .active-list{
@@ -196,7 +202,7 @@ background-color:#E5E5E5;
         width: 270px;
         margin-bottom: 10px;
         margin-right: 30px;
-        font-weight: bold;
+        font-weight: 700;
         font-size: 14px;
         line-height: 1.66;    
         color: #212121;
@@ -205,18 +211,26 @@ background-color:#E5E5E5;
 .active-title: last-child {
         margin-right: 0;
 }
+.active-title:hover,
+.active-title:focus{
+        border: 1px solid orangered;
+}
 .text{
         width: 270px;
         margin-bottom: 94px;
         margin-right: 30px;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 1.66;    
+        font-weight: 400;
+        font-size: 14px;  
         color: #212121;
-}      
+        flex-basis: calc((100% -90px) 4))
+} 
+.text:hover,
+.text:focus{
+        border: 1px solid orangered;
+}     
 /*чем мы занимаемся*/
 .enterprise{
-        background-color:  #E5E5E5;      
+        background-color:       
 }
 
 .sidebar{
@@ -232,8 +246,20 @@ background-color:#E5E5E5;
         font-style: normal;
         color: #212121;
         text-align: center; 
-        font-size: 40px; 
-        margin-bottom: 50px;    
+        font-weight: 700;
+        letter-spacing: 0.03rem;
+        font-size: 36px; 
+        margin-bottom: 50px; 
+        width: 376px; 
+        margin-left: auto;
+        margin-right: auto; 
+        margin-top: 94px; 
+        margin-bottom: 50px;
+     
+}
+.sidebar-title:hover,
+.sidebar-title:focus{
+        border: 1px solid orangered; 
 }
 /*картинки*/
 .aline{
@@ -244,25 +270,33 @@ background-color:#E5E5E5;
         justify-content: space-between;
         width: 1200px;
         padding: 0.15px;
+        box-sizing:border-box
      
 }
 .aline-png{
         flex-basis: calc(100% / 3 -30px);
-        display: block;
-        margin-right: 30px;
-        padding-bottom: 94px;
+        margin-bottom: 94px;
+        width: 370px;
+}
+.aline-png:hover,
+.aline-png:focus{
+        border: 1px solid rgba(33, 150, 243, 1)   
 }
 /*наша команда*/
 .container-team{
         width: 1200px;
-        outline: auto;
         margin-left: auto;
         margin-right: auto;
         padding-top: 94px;
         padding-bottom: 94px;
         padding-left: 15px;
         padding-right: 15px;
-        background-color:  #F5F4FA;
+        background-color:   #F5F4FA;
+        border: 1px solid rgba(33, 150, 243, 1) 
+}
+.container-team:hover,
+.container-team:focus{
+        border: 1px solid orangered
 }
 .team-list{
         display: flex;
@@ -275,46 +309,73 @@ background-color:#E5E5E5;
 }
 .team-list> .team-item{
         width: 270px;
-        outline: 1px solid rgba(33, 150, 243, 1);
-        margin-right: 30px;
+        outline: 1px solid #F5F4FA;
         margin-top: 50px;
 }
 .team-list> .team-item: last-child {
         margin-right: 0px;
 }
+.team-item:hover,
+.team-item:focus{
+        border: 1px solid rgba(33, 150, 243, 1);
+}
 .team-card {
         width: 270px;
-        
+        border: 1px solid rgba(33, 150, 243, 1);      
+}
+.team-card-hover,
+.team-card-focus{
+ border-bottom: 1px solid rgba(33, 150, 243, 1);
 }
 .team{
-        background-color: #E5E5E5;
+        background-color: #FFFFFF;
+       
 }
 .team-first{
         font-family: "Roboto", sans-serif;
+        width: 151px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 10px;
         font-style: normal;
         text-align: center;   
         font-weight: 400;
         font-size: 16px;
-        line-height: 1.18;
         letter-spacing: 0.03em;
         color:  rgba(33, 33, 33, 1);
         text-align: center;
-        padding-left: 0;
-        padding-right: 0;
-        padding-top: 10px; 
-        padding-bottom: 30px;
+        background-color: rgba(245, 244, 250, 1)
+
         
+}
+
+.team-first:hover,
+.team-first:focus{
+        border: 1px solid orangered;
+       
 }   
+
 .team-title{
         text-align: center;
-        font-size: 40px;
+        font-weight: 700;
+        font-size: 36px;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 94px;
         margin-bottom: 50px;   
-        color:  #212121; 
+        color:  #212121;
+        width: 264px; 
+        background-color: rgba(245, 244, 250, 1);
+        
+}
+.team-title:hover,
+.team-title:focus{
+        border: 1px solid orangered;
+      
 }
 .team-text{
-        width: 130px;
-        height: 19px;
+        width: 147px;
         margin-left: 62px;
         margin-top: 30px;
         margin-bottom: 30px;
@@ -327,10 +388,15 @@ background-color:#E5E5E5;
         text-align: center;
         letter-spacing: 0.03em;
         color: rgba(33, 33, 33, 1);
+        background-color: rgba(245, 244, 250, 1)
         }
+.team-text:hover,
+.team-text:focus{
+        border: 2px solid orangered;
+}
 /*Контакты*/
 .contacts{
-        background-color: #E5E5E5;
+        background-color: #ffffff;
 }
 .contacts-container{
         background-color: #2F303A;
@@ -342,7 +408,7 @@ background-color:#E5E5E5;
         margin-right: auto;
         align-items: center;
         line-height: 30px;
-        border: 2px solid rgba(33, 150, 243, 1);
+        border: 1px solid rgba(33, 150, 243, 1);
         
 }
 .contacts-web{
@@ -373,14 +439,16 @@ background-color:#E5E5E5;
 }
 /*портфолио*/
 .color{
-        border: 2px solid orangered; 
-        background-color:#fff;
+        
+        background-color: #FFFFFF;
         margin: 0;   
 }
-.smart-main{
-        background-color: #E5E5E5;
-        margin-top: 0px;
+.color:hover,
+.color:focus{
+
+ border: 1px solid orangered
 }
+
 
 .container-sleam{
         background-color: #2F303A;
@@ -392,7 +460,7 @@ background-color:#E5E5E5;
         margin-right: auto;
         align-items: center;
         line-height: 30px;
-        border: 2px solid rgba(33, 150, 243, 1);      
+        border: 1px solid rgba(33, 150, 243, 1);      
 }
 .logo-story{
         color: rgba(255, 255, 255, 1);
@@ -402,16 +470,10 @@ background-color:#E5E5E5;
         font-size: 26px;
         line-height: 31px;
         text-align: center;      
-}
-.like-container{
-        background-color: #FFFFFF; 
-        
-   
-      
-}   
+}  
+
 .smart-container{
-        background-color: #FFFFFF;  
-        border: 2px solid rgba(33, 150, 243, 1);
+        background-color: #FFFFFF; 
         padding-left: 15px;
         padding-right: 15px;
         padding-bottom: 25px;
@@ -419,11 +481,18 @@ background-color:#E5E5E5;
         margin-left: auto;
         margin-right: auto;
         align-items: center;
-        
+       
+}
+.smart-container:hover,
+.smart-container:focus{
+        border-bottom: 1px solid rgba(33, 150, 243, 1);
 }
 .smart-main{
-        background-color:#E5E5E5;
-        border: solid 1px #EEEEEE
+        background-color:#FFFFFF
+}
+.smart-main:hover,
+.smart-main:focus{
+        border-bottom: 1px solid rgba(33, 150, 243, 1);
 }
 .like-slim{
         font-weight: 84px;
@@ -452,15 +521,26 @@ border-radius: 4px;
 
 
 }
+.like-btn:hover,
+.like-btn:focus{
+        border: 1px solid orangered;
+}
 .like{
         border: none;
         color: rgba(33, 33, 33, 1);
-        font-weight: 700;
+        font-weight: 500;
         font-size: 16px;
         border-radius: 4px;
+
+}
+.like:hover,
+.like:focus{
+
+ border: 1px solid orangered;
+
 }
 .like-mainly{
-        background-color:#E5E5E5;
+        background-color:#FFFFFF;
         margin-left: 215px;
         margin-right: 215px;
         margin-top: 346px;
@@ -481,26 +561,29 @@ border-radius: 4px;
          font-style: normal;
          letter-spacing: 0.03em;
          color: #757575;
-         width: 322px;
-        height: 30px;
-        left: 239px;
-        top: 1050px;
+         width: 370px;
+         text-align: left;
+         
+      
 }
-.container-icon{
-        background-color:  #FFFFFF; 
+.mainly-btn:hover,
+.mainly-btn:focus{
+
+ border: 1px solid orangered
 }
-.icon{
-        background-color: #E5E5E5;
-}
+
 .smart-icon{
         display: flex;
         margin-left: 70px;
         margin-top: 32px;
         margin-right: 70px;
         justify-content: space-between;
-        font-weight: normal;
+        font-weight: normal;   
 }
-
+.smart-img:hover,
+.smart-img:focus{
+        border: 1px solid rgba(33, 150, 243, 1);             
+}
 .sleam-icon{
         display: flex;
         margin-left: 70px;
@@ -523,17 +606,24 @@ border-radius: 4px;
         font-family: "Roboto", sans-serif;
         font-size: 18px;
         font-weight: 700;
-        width: 322px; 
+        width: 370px; 
+        margin: 0;
+        text-align: left;
+}
+.list-text:hover,
+.list-text:focus{
+
+ border: 1px solid orangered
 }
 
 .contakts-mail{
         font-weight: 400;
-        color: black;
+        color: rgba(33, 33, 33, 1);
         font-size: 14px;  
 }
 .contakts-tel{
         font-weight: 400;
-        color: black;  
+        color: rgba(33, 33, 33, 1);  
         font-size: 14px;  
 }
 .links-port{
