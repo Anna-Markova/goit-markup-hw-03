@@ -275,7 +275,7 @@ background-color:#ffffff;
 }
 .aline-png{
         flex-basis: calc(100% / 3 -30px);
-        margin-bottom: 94px;
+        padding-bottom: 94px;
         width: 370px;
 }
 .aline-png:hover,
