@@ -17,34 +17,29 @@
   --back-ligt-wite: #FFFFFF;
 
 }
+
 .color-orangered{
-        border: 2px solid orangered; 
+        border: 1px solid orangered; 
         background-color:#FFFFFF;
         margin: 0;
-
 }
 
 ul{
     list-style: none;
 }
 .smart{
-        background-color: #FFFFFF
+        background-color: #FFFFFF;
         border: 1px solid rgba(33, 150, 243, 1);
-}
-.container-header{
-        background-color: #FFFFFF;  
-        border: 1px solid rgba(33, 150, 243, 1);
+        margin-left:auto;
+        margin-right: auto; 
         padding-left: 15px;
         padding-right: 15px;
         padding-bottom: 25px;
-        width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-        align-items: center;
+        width: 1200px;         
 }
-.container-header:hover,
-.container-header:focus{
-        border: 2px solid rgba(33, 150, 243, 1);   
+.smart:hover,
+.smart:focus{
+        border: 1px solid rgba(33, 150, 243, 1);   
 }
 /*логотип*/
 .title-logo{
@@ -52,8 +47,8 @@ ul{
         font-style: normal;
         font-weight: bold;
         font-size: 26px;
-        line-height: 31px;
         text-align: center;
+        text-decoration: none;
 }
 .logo-web{
         color: #2196F3;
@@ -61,7 +56,6 @@ ul{
         font-style: normal;
         font-weight: bold;
         font-size: 26px;
-        line-height: 31px;
         text-align: center;
 }
 .logo-design{
@@ -70,7 +64,6 @@ ul{
         font-style: normal;
         font-weight: bold;
         font-size: 26px;
-        line-height: 31px;
         text-align: center;
 }
 /*студия портфолио контакты*/
@@ -78,28 +71,35 @@ ul{
         align-items: center;
         display: flex;
         border-bottom: 1px solid var(--back-ligt-wite);
-        margin-bottom: 0;
-        
-        
-        
+        margin-bottom: 0;     
 }
 .contakts-mail-plus{
         font-weight: 500;
         color: rgba(33, 150, 243, 1);
         font-size: 14px;  
+        text-decoration: none;
 }
 .links-plus{
         font-weight: 500;
         color: rgba(33, 150, 243, 1);
         font-size: 14px;
+        text-decoration: none;
 }
 .links-one{
         font-weight: 400;
         color:rgba(33, 33, 33, 1);
         font-size: 14px;
+        text-decoration: none;
+}
+.links{
+        color: rgba(33, 33, 33, 1);
+        font-weight: 500;
+        font-size: 14px;
+        text-decoration: none;
 }
 .social-links{
         display: flex;
+
 }
 .social-links> .item:not(:last-child){
         margin-right: 50px;
@@ -121,22 +121,21 @@ ul{
 }
 /*герой*/
 .hero{
-background-color:#ffffff;
+        background-color: #2F303A;
+        border: 1px solid rgba(33, 150, 243, 1);  
+        margin-left:auto;
+        margin-right: auto; 
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 25px;
+        width: 1200px;      
 }
+
 .container-hero-box{
         color: #E5E5E5;
         text-align: center;
         font-family: "Roboto", sans-serif;
-        letter-spacing: 0.06em;
-        margin-left:auto;
-        margin-right: auto; 
-        background-color:  #2F303A;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-bottom: 25px;
-        width: 1200px;
-        border: 1px solid rgba(33, 150, 243, 1);
-    
+        letter-spacing: 0.06em;      
 }
 .hero-btn{
         color: #E5E5E5;
@@ -229,10 +228,6 @@ background-color:#ffffff;
         border: 1px solid orangered;
 }     
 /*чем мы занимаемся*/
-.enterprise{
-        background-color:       
-}
-
 .sidebar{
         background-color: #FFFFFF;  
         width: 1200px;
@@ -285,6 +280,7 @@ background-color:#ffffff;
 /*наша команда*/
 .container-team{
         width: 1200px;
+        margin-top: 94px;
         margin-left: auto;
         margin-right: auto;
         padding-top: 94px;
@@ -292,7 +288,7 @@ background-color:#ffffff;
         padding-left: 15px;
         padding-right: 15px;
         background-color:   #F5F4FA;
-        border: 1px solid rgba(33, 150, 243, 1) 
+        border: 1px solid rgba(33, 150, 243, 1);     
 }
 .container-team:hover,
 .container-team:focus{
@@ -309,45 +305,43 @@ background-color:#ffffff;
 }
 .team-list> .team-item{
         width: 270px;
-        outline: 1px solid #F5F4FA;
         margin-top: 50px;
 }
 .team-list> .team-item: last-child {
         margin-right: 0px;
 }
+.team-item{
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+}
 .team-item:hover,
 .team-item:focus{
         border: 1px solid rgba(33, 150, 243, 1);
+        background-color: rgba(245, 244, 250, 1)
 }
+/*карточки*/
 .team-card {
-        width: 270px;
-        border: 1px solid rgba(33, 150, 243, 1);      
+        width: 270px;  
 }
-.team-card-hover,
-.team-card-focus{
- border-bottom: 1px solid rgba(33, 150, 243, 1);
+.team-card:hover,
+.team-card:focus{
+        border: 1px solid rgba(33, 150, 243, 1);    
 }
 .team{
-        background-color: #FFFFFF;
-       
+        background-color: #FFFFFF;    
 }
 .team-first{
         font-family: "Roboto", sans-serif;
-        width: 151px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 30px;
-        margin-bottom: 10px;
-        font-style: normal;
-        text-align: center;   
-        font-weight: 400;
+        font-style: normal;  
+        font-weight: 500;
         font-size: 16px;
         letter-spacing: 0.03em;
         color:  rgba(33, 33, 33, 1);
         text-align: center;
-        background-color: rgba(245, 244, 250, 1)
-
-        
+        background-color: rgba(245, 244, 250, 1) ;
+        padding-top: 30px;
+        text-decoration: none;
+      
 }
 
 .team-first:hover,
@@ -366,8 +360,7 @@ background-color:#ffffff;
         margin-bottom: 50px;   
         color:  #212121;
         width: 264px; 
-        background-color: rgba(245, 244, 250, 1);
-        
+        background-color: rgba(245, 244, 250, 1);     
 }
 .team-title:hover,
 .team-title:focus{
@@ -375,24 +368,24 @@ background-color:#ffffff;
       
 }
 .team-text{
-        width: 147px;
-        margin-left: 62px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-right: 61px;
         font-family: "Roboto", sans-serif;
         font-style: normal;
-        font-weight: normal;
+        font-weight: 400;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.18;
         text-align: center;
         letter-spacing: 0.03em;
         color: rgba(33, 33, 33, 1);
-        background-color: rgba(245, 244, 250, 1)
-        }
+        background-color: rgba(245, 244, 250, 1);
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        text-decoration: none;}
 .team-text:hover,
 .team-text:focus{
-        border: 2px solid orangered;
+        border: 1px solid orangered;
+     
 }
 /*Контакты*/
 .contacts{
@@ -409,6 +402,8 @@ background-color:#ffffff;
         align-items: center;
         line-height: 30px;
         border: 1px solid rgba(33, 150, 243, 1);
+        
+        
         
 }
 .contacts-web{
@@ -435,6 +430,7 @@ background-color:#ffffff;
         margin-top: 20px;
         margin-right: auto;
         margin-bottom: 60px;
+        text-decoration: none;
      
 }
 /*портфолио*/
@@ -471,29 +467,28 @@ background-color:#ffffff;
         line-height: 31px;
         text-align: center;      
 }  
-
+.smart{
+        border-bottom: 2px solid orangered;
+}
 .smart-container{
-        background-color: #FFFFFF; 
+        background-color: #FFFFFF;   
+      
+}
+.smart-container:hover,
+.smart-container:focus{
+        border-bottom: 2px solid rgba(33, 150, 243, 1) 
+}
+.smart-main{
+        background-color:#FFFFFF;
         padding-left: 15px;
         padding-right: 15px;
         padding-bottom: 25px;
         width: 1200px;
         margin-left: auto;
         margin-right: auto;
-        align-items: center;
-       
+      
 }
-.smart-container:hover,
-.smart-container:focus{
-        border-bottom: 1px solid rgba(33, 150, 243, 1);
-}
-.smart-main{
-        background-color:#FFFFFF
-}
-.smart-main:hover,
-.smart-main:focus{
-        border-bottom: 1px solid rgba(33, 150, 243, 1);
-}
+
 .like-slim{
         font-weight: 84px;
         margin-left: 70px;
@@ -619,23 +614,22 @@ border-radius: 4px;
 .contakts-mail{
         font-weight: 400;
         color: rgba(33, 33, 33, 1);
-        font-size: 14px;  
+        font-size: 14px; 
+        text-decoration: none; 
 }
 .contakts-tel{
         font-weight: 400;
         color: rgba(33, 33, 33, 1);  
-        font-size: 14px;  
+        font-size: 14px; 
+        text-decoration: none;
 }
 .links-port{
         color: rgba(33, 150, 243, 1);
         font-weight: 500;
         font-size: 14px;
+        text-decoration: none;
 }
-.links{
-        color: rgba(33, 33, 33, 1);
-        font-weight: 500;
-        font-size: 14px;
-}
+
 .h1,
 .h2,
 .h1,
