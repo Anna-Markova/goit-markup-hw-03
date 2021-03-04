@@ -19,7 +19,6 @@
 }
 
 .color-orangered{
-        border: 1px solid orangered; 
         background-color:#FFFFFF;
         margin: 0;
 }
@@ -35,7 +34,8 @@ ul{
         padding-left: 15px;
         padding-right: 15px;
         padding-bottom: 25px;
-        width: 1200px;         
+        width: 1200px; 
+        width: 100vw;         
 }
 .smart:hover,
 .smart:focus{
@@ -128,14 +128,15 @@ ul{
         padding-left: 15px;
         padding-right: 15px;
         padding-bottom: 25px;
-        width: 1200px;      
+        width: 1200px;  
+        width: 100vw;    
 }
 
 .container-hero-box{
         color: #E5E5E5;
         text-align: center;
         font-family: "Roboto", sans-serif;
-        letter-spacing: 0.06em;      
+        letter-spacing: 0.06em;    
 }
 .hero-btn{
         color: #E5E5E5;
@@ -170,8 +171,17 @@ ul{
         border: 1px solid orangered;  
 }
 /*внимание к деталям*/
+.container{
+        margin: 0 auto;
+        margin-right: auto; 
+        padding: 0.15px;
+        width: 1200px;  
+        width: 100vw; 
+        box-sizing: border-box;
+}
 .active{
         background-color: #ffffff;
+
 }
 
 .active-list{
@@ -189,7 +199,8 @@ ul{
         margin-left: auto;
         margin-right: auto;
         align-items: center;
-        background-color:#FFFFFF
+        background-color:#FFFFFF;
+        column-gap: 30px;    
 }
 .active-list .item{
         width: 270px;
@@ -228,7 +239,7 @@ ul{
         border: 1px solid orangered;
 }     
 /*чем мы занимаемся*/
-.sidebar{
+.sidebar-container{
         background-color: #FFFFFF;  
         width: 1200px;
         padding-left: 15px;
@@ -288,11 +299,7 @@ ul{
         padding-left: 15px;
         padding-right: 15px;
         background-color:   #F5F4FA;
-        border: 1px solid rgba(33, 150, 243, 1);     
-}
-.container-team:hover,
-.container-team:focus{
-        border: 1px solid orangered
+        width: 100vw;     
 }
 .team-list{
         display: flex;
@@ -302,6 +309,7 @@ ul{
         margin-bottom: 92px;
         width: 1200px;
         padding: 0.15px;
+        width: 100vw;
 }
 .team-list> .team-item{
         width: 270px;
@@ -328,7 +336,8 @@ ul{
         border: 1px solid rgba(33, 150, 243, 1);    
 }
 .team{
-        background-color: #FFFFFF;    
+        background-color: #FFFFFF; 
+        width: 100vw;  
 }
 .team-first{
         font-family: "Roboto", sans-serif;
@@ -402,9 +411,7 @@ ul{
         align-items: center;
         line-height: 30px;
         border: 1px solid rgba(33, 150, 243, 1);
-        
-        
-        
+        width: 100vw;     
 }
 .contacts-web{
         font-style: normal;
