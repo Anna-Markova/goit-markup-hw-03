@@ -25,21 +25,23 @@
 
 ul{
     list-style: none;
+    padding: 0;
+}
+
+a {
+        text-decoration: none;
 }
 .smart{
-        background-color: #FFFFFF;
-        border: 1px solid rgba(33, 150, 243, 1);
-        margin-left:auto;
-        margin-right: auto; 
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-bottom: 25px;
-        width: 1200px; 
-        width: 100vw;         
+        border-bottom: 1px solid  #ECECEC;;
+        height: 80px;
+        width: 100%;         
 }
-.smart:hover,
-.smart:focus{
-        border: 1px solid rgba(33, 150, 243, 1);   
+
+.header {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 }
 /*логотип*/
 .title-logo{
@@ -99,6 +101,7 @@ ul{
 }
 .social-links{
         display: flex;
+        margin-left: 93px;
 
 }
 .social-links> .item:not(:last-child){
@@ -123,13 +126,7 @@ ul{
 .hero{
         background-color: #2F303A;
         border: 1px solid rgba(33, 150, 243, 1);  
-        margin-left:auto;
-        margin-right: auto; 
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-bottom: 25px;
-        width: 1200px;  
-        width: 100vw;    
+        padding-bottom: 25px;   
 }
 
 .container-hero-box{
@@ -173,10 +170,8 @@ ul{
 /*внимание к деталям*/
 .container{
         margin: 0 auto;
-        margin-right: auto; 
-        padding: 0.15px;
+        padding: 0 15px;
         width: 1200px;  
-        width: 100vw; 
         box-sizing: border-box;
 }
 .active{
@@ -186,21 +181,14 @@ ul{
 
 .active-list{
         display: flex;
-        width: 270px;
         margin-top: 94px;
         font-family: "Roboto", sans-serif; 
-        font-style: normal;
         font-weight: normal;
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.03em;
-        color: #757575;
-        width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-        align-items: center;
-        background-color:#FFFFFF;
-        column-gap: 30px;    
+        color: #757575; 
+        justify-content: space-between;  
 }
 .active-list .item{
         width: 270px;
@@ -271,18 +259,13 @@ ul{
 .aline{
         display: flex;
         flex-wrap: wrap;
-        margin-top: 0;
-        margin-bottom: 0;
         justify-content: space-between;
-        width: 1200px;
-        padding: 0.15px;
         box-sizing:border-box
      
 }
 .aline-png{
         flex-basis: calc(100% / 3 -30px);
         padding-bottom: 94px;
-        width: 370px;
 }
 .aline-png:hover,
 .aline-png:focus{
@@ -290,43 +273,25 @@ ul{
 }
 /*наша команда*/
 .container-team{
-        width: 1200px;
-        margin-top: 94px;
-        margin-left: auto;
-        margin-right: auto;
         padding-top: 94px;
         padding-bottom: 94px;
-        padding-left: 15px;
-        padding-right: 15px;
-        background-color:   #F5F4FA;
-        width: 100vw;     
 }
 .team-list{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        flex-basis: calc(100%/3 -30px);
-        margin-bottom: 92px;
-        width: 1200px;
-        padding: 0.15px;
-        width: 100vw;
+        flex-basis: calc(100% / 3 -30px);
 }
-.team-list> .team-item{
-        width: 270px;
-        margin-top: 50px;
-}
+
 .team-list> .team-item: last-child {
         margin-right: 0px;
 }
 .team-item{
       box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
+        background: #fff;
 }
-.team-item:hover,
-.team-item:focus{
-        border: 1px solid rgba(33, 150, 243, 1);
-        background-color: rgba(245, 244, 250, 1)
-}
+
 /*карточки*/
 .team-card {
         width: 270px;  
@@ -336,8 +301,7 @@ ul{
         border: 1px solid rgba(33, 150, 243, 1);    
 }
 .team{
-        background-color: #FFFFFF; 
-        width: 100vw;  
+        background-color: rgba(245, 244, 250, 1);
 }
 .team-first{
         font-family: "Roboto", sans-serif;
@@ -347,9 +311,7 @@ ul{
         letter-spacing: 0.03em;
         color:  rgba(33, 33, 33, 1);
         text-align: center;
-        background-color: rgba(245, 244, 250, 1) ;
         padding-top: 30px;
-        text-decoration: none;
       
 }
 
@@ -365,7 +327,6 @@ ul{
         font-size: 36px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 94px;
         margin-bottom: 50px;   
         color:  #212121;
         width: 264px; 
@@ -385,7 +346,6 @@ ul{
         text-align: center;
         letter-spacing: 0.03em;
         color: rgba(33, 33, 33, 1);
-        background-color: rgba(245, 244, 250, 1);
         padding-left: 0;
         padding-right: 0;
         padding-top: 10px;
@@ -410,34 +370,20 @@ ul{
         margin-right: auto;
         align-items: center;
         line-height: 30px;
-        border: 1px solid rgba(33, 150, 243, 1);
-        width: 100vw;     
+        border: 1px solid rgba(33, 150, 243, 1);   
 }
 .contacts-web{
-        font-style: normal;
-        font-weight: 145;
         font-size: 10px;
         letter-spacing: 0.03em;
         color: #2196F3;
-        margin-left: 250px;
-        margin-top: 60px;
-        margin-right: auto;
-        margin-bottom: 20px;  
-        display: flex;    
+        margin-bottom: 20px;   
 }
 .title-smart{
-        background: #2F303A;
         font-family: "Raleway", sans-serif;
         font-style: normal;
-        font-weight: 145;
         font-size: 14px;
         letter-spacing: 0.03em;
         color: #FFFFFF;
-        margin-left: 215px;
-        margin-top: 20px;
-        margin-right: auto;
-        margin-bottom: 60px;
-        text-decoration: none;
      
 }
 /*портфолио*/
@@ -458,10 +404,6 @@ ul{
         align-items: center;
         line-height: 30px;
         border: 1px solid rgba(33, 150, 243, 1);  
-        width: 100vw;    
-}
-.container-icon{
-        width: 100vw;
 }
 .logo-story{
         color: rgba(255, 255, 255, 1);
@@ -471,43 +413,24 @@ ul{
         font-size: 26px;
         line-height: 31px;
         text-align: center;      
-}  
-.smart{
-        border-bottom: 2px solid orangered;
+} 
+/*кнопки*/
+.like-container{
+       background-color: rgba(255, 255, 255, 1)
 }
-.smart-container{
-        background-color: #FFFFFF;   
-      
-}
-.smart-container:hover,
-.smart-container:focus{
-        border-bottom: 2px solid rgba(33, 150, 243, 1) 
-}
-.smart-main{
-        background-color:#FFFFFF;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-bottom: 25px;
-        width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100vw;
-      
-}
-
-.like-slim{
-        font-weight: 84px;
-        margin-left: 70px;
-        margin-top: 32px;
-        font-family: "Roboto", sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: #212121;
+.like-mainly{
+        margin-left: 215px;
+        margin-right: 215px;
+        margin-top: 80px;
         justify-content: space-between;
-        background-color: rgba(255, 255, 255, 1);
+        display: flex;
+        background-color: rgba(255, 255, 255, 1); 
+}
+.like-slim{
+        width: 1170px;
+          margin-left: 215px;
+        margin-right: 215px;
+        justify-content: space-between;
         display: flex;
 }
 .like-btn{
@@ -515,12 +438,10 @@ ul{
        border: none;
        font-weight: 700;
        width: 73px;
-      left: 495px;
-      top: 174px;
+       font-size: 16px;
+       color: rgba(33, 33, 33, 1);
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
-
-
 }
 .like-btn:hover,
 .like-btn:focus{
@@ -532,75 +453,29 @@ border-radius: 4px;
         font-weight: 500;
         font-size: 16px;
         border-radius: 4px;
-
 }
 .like:hover,
 .like:focus{
-
  border: 1px solid orangered;
-
 }
-.like-mainly{
-        background-color:#FFFFFF;
-        margin-left: 215px;
-        margin-right: 215px;
-        margin-top: 346px;
-        margin-bottom: 174px;
-        text-align: center;   
-        justify-content: space-between;
-        font-weight: 1170px;
-        margin-left: 100px;
-        margin-top: 94px;
-        margin-bottom: 88px;   
+/*карточки*/ 
+.container-icon{
+        padding-top: 94px;
+        padding-bottom: 94px;
 }
-.mainly-btn{          
-         border: none; 
-         background-color:  #E5E5E5;
-         font-family: "Roboto", sans-serif;
-         font-size: 16px;
-         font-weight: 400;
-         font-style: normal;
-         letter-spacing: 0.03em;
-         color: #757575;
-         width: 370px;
-         text-align: left;
-         
-      
-}
-.mainly-btn:hover,
-.mainly-btn:focus{
-
- border: 1px solid orangered
-}
-
-.smart-icon{
+.icon-slim{
         display: flex;
-        margin-left: 70px;
-        margin-top: 32px;
-        margin-right: 70px;
+        flex-wrap: wrap;
         justify-content: space-between;
-        font-weight: normal;   
+        flex-basis: calc(100% / 3 -30px);
+}
+.smart-img{
+        margin-bottom: 30px;
 }
 .smart-img:hover,
 .smart-img:focus{
-        border: 1px solid rgba(33, 150, 243, 1);             
-}
-.sleam-icon{
-        display: flex;
-        margin-left: 70px;
-        margin-top: 32px;
-        margin-right: 70px;
-        justify-content: space-between;
-        font-weight: normal;
-}
-.focus-icon{
-        display: flex;
-        margin-left: 70px;
-        margin-top: 32px;
-        margin-right: 70px;
-        justify-content: space-between;
-        font-weight: normal;
-}   
+        border: 2px solid rgba(33, 150, 243, 1);             
+} 
 .list-text{
         color: rgba(33, 33, 33, 1);
         text-align: center;
@@ -615,6 +490,43 @@ border-radius: 4px;
 .list-text:focus{
 
  border: 1px solid orangered
+}
+
+.smart{
+        border-bottom: 2px solid orangered;
+}
+.smart-container{
+        background-color: #FFFFFF;   
+      
+}
+.smart-container:hover,
+.smart-container:focus{
+        border-bottom: 2px solid rgba(33, 150, 243, 1) 
+}
+.smart-img{
+        width: 370px;
+}
+.mainly-btn{          
+        border: none; 
+        background-color:  #E5E5E5;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 0.03em;
+        color: #757575;
+        width: 370px;
+        text-align: left;    
+}
+.mainly-btn:hover,
+.mainly-btn:focus{
+
+border: 1px solid orangered
+}
+/*футер*/
+.footer {
+        background: #2F303A;
+        padding: 60px 0;
 }
 
 .contakts-mail{
